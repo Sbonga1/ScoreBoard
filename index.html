@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+               
+            </div>
+            <div>
+                <h3>GUEST</h3>
+            </div>
+        </div>
+         <div class="container">
+            <div>
+                <h1 id="home-counter">0</h1>
+                <button onclick="increment(1,'home')">+1</button>
+                <button onclick="increment(2,'home')">+2</button>
+                <button onclick="increment(3,'home')">+3</button>
+            </div>
+            <div>
+                <h1 id="away-counter">0</h1>
+                <button onclick="increment(1)">+1</button>
+                <button onclick="increment(2)">+2</button>
+                <button onclick="increment(3)">+3</button>
+            </div>
+        </div>
+        <div>
+            <button onclick="resert()">Resert</button>
+        </div>
+        
+         
+        <script src="index.js"></script>
+    </body>
+</html>
